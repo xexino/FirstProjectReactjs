@@ -1,9 +1,10 @@
-import Welcome from "./component-2/Welcome";
+ import MyReactClass from "./component/MyReactClass" 
 
-function App() {
-  const alertMyInput = name => alert(name);
+ function App() {
   return (
-    <Welcome name="anthony" functionHello={alertMyInput} />
+    <>
+      <MyReactClass />
+    </>
   );
 }
 
